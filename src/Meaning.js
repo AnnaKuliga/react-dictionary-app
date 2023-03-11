@@ -8,6 +8,7 @@ export default function Meaning(props) {
       <p>
         {props.meaning.definition} <br />
         <em> {props.meaning.example} </em>
+        <hr />
       </p>
     </div>
   );
