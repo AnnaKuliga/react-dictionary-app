@@ -1,7 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
 
-//meaning.definition to display the definition [0]
 export default function Results(props) {
   if (props.results) {
     return (

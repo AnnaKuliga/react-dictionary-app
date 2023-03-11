@@ -12,8 +12,8 @@ export default function Dictionary() {
   }
 
   function handleResponse(response) {
-    console.log(response.data);
-    console.log(response.data.meanings.definition);
+    //console.log(response.data); to show the data
+    //console.log(response.data.meanings[0].definition); to show only the definition of the first meaning
     setResults(response.data);
   }
   function search(event) {
