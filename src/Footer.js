@@ -12,7 +12,7 @@ import {
 export default function Footer() {
   return (
     <footer className="Footer mt-5">
-      <section className="grid grid-3-columns-footer container">
+      <section className="grid grid-3-columns-footer container" id="footer">
         <div className="about-app">
           <h4>Dictionary App</h4>
           <hr />
