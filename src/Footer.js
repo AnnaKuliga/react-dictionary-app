@@ -26,10 +26,10 @@ export default function Footer() {
           <h4>About me</h4>
           <hr />
           <p>
-            Hi! My name is Anna and I come from Poland. I'm front-end developer
-            based in Europe. I'm currently living in Norway, Oslo. You can check
-            my other projects and if you like my dictionary app, feel free to
-            contact me. 🌞
+            Hi! My name is Anna and I come from Poland. I am front-end developer
+            based in Europe. I am currently living in Norway, Oslo. You can
+            check my other projects and if you like my dictionary app, feel free
+            to contact me. 🌞
           </p>
         </div>
         <div className="about-page">
