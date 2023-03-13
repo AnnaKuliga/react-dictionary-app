@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Dictionary.css";
 import Results from "./Results";
+import Photos from "./Photos";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
+  let [photos, setPhotos] = useState(null);
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
@@ -19,6 +21,7 @@ export default function Dictionary(props) {
   }
   function handleImageResponse(response) {
     console.log(response);
+    setPhotos(response.data.photos);
   }
   function search() {
     //documentation https://www.shecodes.io/learn/apis/dictionary
@@ -57,6 +60,7 @@ export default function Dictionary(props) {
           </div>
         </section>
         <Results results={results} />
+        <Photos photos={photos} />
       </div>
     );
   } else {

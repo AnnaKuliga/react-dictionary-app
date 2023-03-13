@@ -3,11 +3,6 @@ body {
   font-family: "Playfair Display", serif;
 }
 
-.App {
-  margin: 0 auto;
-  max-width: 1000px;
-  text-align: justify;
-}
 .grid {
   padding: 15px 15px 0;
   display: grid;
@@ -21,9 +16,7 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
-.grid-four-columns {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+
 .grid-3-columns-footer {
   grid-template-columns: 2fr 2fr 2fr;
 }
