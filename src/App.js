@@ -1,6 +1,7 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
 import Navbar from "./Navbar";
+import ContactForm from "./ContactForm";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
           <h2>What word do you want to look up?</h2>
         </header>
         <Dictionary defaultKeyword="hello" />
-        <footer className="App-footer" id="contact">
+        <ContactForm />
+        <footer className="App-footer" id="footer">
           The website was coded by Anna and is{" "}
           <a
             href="https://github.com/AnnaKuliga/react-dictionary-app"
