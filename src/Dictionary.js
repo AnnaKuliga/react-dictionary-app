@@ -17,11 +17,19 @@ export default function Dictionary(props) {
     //console.log(response.data.meanings[0].definition); to show only the definition of the first meaning
     setResults(response.data);
   }
+  function handleImageResponse(response) {
+    console.log(response);
+  }
   function search() {
     //documentation https://www.shecodes.io/learn/apis/dictionary
     let apiKey = `5fb4oa610201e8b3c770fffbaee96fft`;
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
+    //documentation https://www.shecodes.io/learn/apis/images
+    let imageApi = `5fb4oa610201e8b3c770fffbaee96fft`;
+    let imageApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${imageApi}`;
+
+    axios.get(imageApiUrl).then(handleImageResponse);
   }
 
   function handleSubmit(event) {
