@@ -1,0 +1,13 @@
+.Meaning h4 {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.Meaning .example {
+  font-size: 14px;
+  opacity: 0.8;
+  font-style: italic;
+  text-transform: capitalize;
+  padding: 5px 0;
+}

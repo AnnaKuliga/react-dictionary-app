@@ -1,13 +1,17 @@
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <Navbar />
+        <header className="App-header">
+          <h2>What word do you want to look up?</h2>
+        </header>
         <Dictionary defaultKeyword="hello" />
-        <footer className="App-footer">
+        <footer className="App-footer" id="contact">
           The website was coded by Anna and is{" "}
           <a
             href="https://github.com/AnnaKuliga/react-dictionary-app"
