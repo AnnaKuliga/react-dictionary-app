@@ -4,7 +4,7 @@ import "./ContactForm.css";
 export default function ContactForm() {
   return (
     <div className="ContactForm" id="form">
-      <section class="form mt-5">
+      <section class="form">
         <form class="text-center p-5" action="#!">
           <p class="h4 mb-4">Contact us</p>
 
@@ -22,7 +22,7 @@ export default function ContactForm() {
             placeholder="E-mail"
           />
 
-          <label>Subject</label>
+          <label>Subject </label>
           <select class="browser-default custom-select mb-4">
             <option value="" disabled>
               Choose option

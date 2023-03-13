@@ -1,8 +1,8 @@
-.form {
+.ContactForm {
   margin: 0 auto;
   max-width: 600px;
 }
-.form form {
+.ContactForm form {
   border: 1px solid var(--primary-color);
   border-radius: 8px;
   background-color: rgba(252, 252, 252, 0.619);

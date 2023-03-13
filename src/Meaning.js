@@ -6,16 +6,14 @@ export default function Meaning(props) {
   console.log(props);
   return (
     <div className="Meaning">
-      <section>
-        <h4>{props.meaning.partOfSpeech}</h4>
-        <div className="definition">
-          {props.meaning.definition} <br />
-        </div>
-        <div className="example"> {props.meaning.example}</div>
-        <div className="synonyms">
-          <Synonyms synonyms={props.meaning.synonyms} />
-        </div>
-      </section>
+      <h4>{props.meaning.partOfSpeech}</h4>
+      <div className="definition">
+        {props.meaning.definition} <br />
+      </div>
+      <div className="example"> {props.meaning.example}</div>
+      <div className="synonyms">
+        <Synonyms synonyms={props.meaning.synonyms} />
+      </div>
     </div>
   );
 }

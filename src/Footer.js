@@ -11,13 +11,13 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="Footer container">
-      <section className="grid grid-3-columns-footer">
+    <footer className="Footer mt-5">
+      <section className="grid grid-3-columns-footer container">
         <div className="about-app">
-          <h4>Weather App</h4>
+          <h4>Dictionary App</h4>
           <hr />
           <p>
-            This weather app is made for general use. It is free and everyone
+            This dictionary app is made for general use. It is free and everyone
             can access it. Feel free to write me an email or contact me if you
             spote a bug.
           </p>
@@ -29,7 +29,7 @@ export default function Footer() {
             Hi! My name is Anna and I come from Poland. I'm front-end developer
             based in Europe. I'm currently living in Norway, Oslo. You can check
             my other projects and if you like my dictionary app, feel free to
-            contact me . 🌞
+            contact me. 🌞
           </p>
         </div>
         <div className="about-page">
