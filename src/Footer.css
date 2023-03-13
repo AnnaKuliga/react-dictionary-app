@@ -1,15 +1,15 @@
 .Footer {
-  background-color: rgba(255, 255, 255, 0.365);
+  background-color: rgba(252, 252, 252, 0.913);
   font-size: 11px;
   margin: 0 auto;
 }
 .Footer a {
-  color: var(--primary-color);
+  color: #14192e;
   font-size: 11px;
   text-decoration: none;
 }
 .Footer a:hover {
-  color: var(--hover-link-color);
+  color: #b83143;
 }
 
 .Footer h4 {

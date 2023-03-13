@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Navbar />
-        <header className="App-header">
-          <h2>What word do you want to look up?</h2>
-        </header>
+
         <Dictionary defaultKeyword="hello" />
         <ContactForm />
       </div>
