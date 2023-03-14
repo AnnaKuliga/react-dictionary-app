@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <div className="container">
         <Navbar />
-
         <Dictionary defaultKeyword="hello" />
         <ContactForm />
       </div>

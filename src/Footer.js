@@ -14,13 +14,11 @@ export default function Footer() {
     <footer className="Footer mt-5">
       <section className="grid grid-3-columns-footer container" id="footer">
         <div className="about-app">
-          <h4>Dictionary App</h4>
-          <hr />
-          <p>
-            This dictionary app is made for general use. It is free and everyone
-            can access it. Feel free to write me an email or contact me if you
-            spote a bug.
-          </p>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/071/598/original/logo.png?1678794824"
+            alt="logo dictionary"
+            className="logo"
+          />
         </div>
         <div className="about-me">
           <h4>About me</h4>
