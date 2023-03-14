@@ -24,3 +24,8 @@
   padding: 10px;
   text-align: justify;
 }
+@media (max-width: 900px) {
+  .Footer .about-app {
+    margin: auto;
+  }
+}

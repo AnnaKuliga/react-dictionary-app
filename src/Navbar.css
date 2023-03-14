@@ -1,3 +1,8 @@
 .Navbar a {
   color: #f2d4bb;
 }
+@media (max-width: 600px) {
+  .Navbar img {
+    display: none;
+  }
+}
