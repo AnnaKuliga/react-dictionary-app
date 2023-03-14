@@ -1,12 +1,12 @@
 .Meaning h4 {
   font-size: 24px;
-  line-height: 1.5;
-  letter-spacing: 1px;
   font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 .Meaning .example {
   font-size: 14px;
-  opacity: 0.8;
   font-style: italic;
+  opacity: 0.8;
   padding: 5px 0;
 }

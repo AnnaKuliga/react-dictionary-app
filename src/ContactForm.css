@@ -3,7 +3,7 @@
   max-width: 600px;
 }
 .ContactForm form {
+  background-color: rgba(252, 252, 252, 0.913);
   border: 1px solid var(--primary-color);
   border-radius: 8px;
-  background-color: rgba(252, 252, 252, 0.913);
 }
